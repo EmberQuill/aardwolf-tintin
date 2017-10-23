@@ -163,7 +163,7 @@
 		}
 	};
 	#format {time} {%t} {%H:%M:%S};
-	$repchan @WRepop @w= @r$GMCP[COMM][REPOP][zone]@w @@ @r$time;
+	#nop $repchan @WRepop @w= @r$GMCP[COMM][REPOP][zone]@w @@ @r$time;
 	#var time {};
 	#nop;
 }

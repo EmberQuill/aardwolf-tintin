@@ -5,7 +5,7 @@
 #NOP	/* This section is just for the display in Tintin. */
 
 #NOP	/* Select which channels to gag from Tintin */
-#ACTION {^\{chan ch={answer|question|wangrp|gossip|barter|auction|mxit|nobletalk|sports|gclan}\}%2$} {#line gag}
+#ACTION {^\{chan ch={answer|question|wangrp|gossip|barter|auction|mxit|nobletalk|sports|gclan|Newbie}\}%2$} {#line gag}
 
 #NOP	/* Remove the tags from stuff we don't gag */
 #SUB 	{\{chan ch=%*\}} {}
